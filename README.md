@@ -1,4 +1,4 @@
-chrome-promise
+chrome-promise (with temporary fix)
 ==========
 
 [![npm version](http://img.shields.io/npm/v/chrome-promise.svg)](https://npmjs.org/package/chrome-promise)
