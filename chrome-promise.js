@@ -90,6 +90,7 @@
 
     function fillProperties(source, target) {
       for (var key in source) {
+        if (['sendRequest', 'onRequest', 'onRequestExternal'].includes(key)) continue;
         if (hasOwnProperty.call(source, key)) {
           var val = source[key];
           var type = typeof val;
